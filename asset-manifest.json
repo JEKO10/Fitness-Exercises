@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Fitness-Exercises/static/css/main.e6c13ad2.css",
+    "main.js": "/Fitness-Exercises/static/js/main.5853d5ea.js",
+    "static/js/787.ec6b3678.chunk.js": "/Fitness-Exercises/static/js/787.ec6b3678.chunk.js",
+    "index.html": "/Fitness-Exercises/index.html",
+    "main.e6c13ad2.css.map": "/Fitness-Exercises/static/css/main.e6c13ad2.css.map",
+    "main.5853d5ea.js.map": "/Fitness-Exercises/static/js/main.5853d5ea.js.map",
+    "787.ec6b3678.chunk.js.map": "/Fitness-Exercises/static/js/787.ec6b3678.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5853d5ea.js"
+  ]
+}
