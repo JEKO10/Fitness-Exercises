@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap);nav{align-items:center;display:flex;font-family:Lato,sans-serif;justify-content:space-between;margin:0 auto;max-width:90vw;padding:25px 10px}nav a{color:#000;font-size:1.3rem;text-decoration:none}nav a.active{border-bottom:3px solid red}*{box-sizing:border-box;margin:0;padding:0}
+/*# sourceMappingURL=main.f99f930d.css.map*/
