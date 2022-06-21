@@ -1,0 +1,17 @@
+nav {
+  @include flex(space-between, center);
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 25px 10px;
+  font-family: $primaryFont;
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+    &.active {
+      border-bottom: 3px solid #ff0000;
+    }
+  }
+}
