@@ -1,0 +1,57 @@
+.hero {
+  @include flex(space-between, center);
+  min-height: 80vh;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 25px 10px;
+  font-family: $primaryFont;
+
+  h2 {
+    color: red;
+  }
+
+  h1 {
+    padding: 30px 0 20px;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-weight: 500;
+    padding-bottom: 40px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    font-family: $primaryFont;
+    text-transform: uppercase;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      background-color: #ff0000;
+      padding: 15px 25px;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      transition: all 500ms ease;
+
+      &:hover {
+        background-color: #fff;
+        color: #ff0000;
+        border: 2px dashed #ff0000;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    width: 630px;
+    height: 800px;
+    margin-top: -30px;
+  }
+}

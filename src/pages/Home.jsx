@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import HeroBanner from "../components/HeroBanner";
 
 function Home() {
   return (
     <>
-      Home
-      <Footer />
+      <HeroBanner />
     </>
   );
 }

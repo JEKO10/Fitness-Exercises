@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/icons/Logo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
       <img src={Logo} alt="Logo" />
       <Link
         to="/"
-        className={active && "active"}
+        className={active ? "active" : undefined}
         onClick={() => {
           setActive(true);
         }}
@@ -19,7 +19,7 @@ function Navbar() {
       </Link>
       <Link
         to="/exercises"
-        className={!active && "active"}
+        className={!active ? "active" : undefined}
         onClick={() => {
           setActive(false);
         }}
