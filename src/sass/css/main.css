@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a.active {
-  border-bottom: 3px solid #ff0000;
+  border-bottom: 3px solid #ff2625;
 }
 
 .hero {
@@ -33,9 +33,9 @@ nav a.active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   min-height: 80vh;
   max-width: 90vw;
   margin: 0 auto;
@@ -44,15 +44,24 @@ nav a.active {
 }
 
 .hero h2 {
-  color: red;
+  color: #ff2625;
 }
 
-.hero h1 {
+.hero #title {
   padding: 30px 0 20px;
   font-size: 3rem;
   letter-spacing: 2px;
   line-height: 60px;
   font-weight: 700;
+}
+
+.hero #bg {
+  color: #ff2625;
+  font-size: 12.5rem;
+  font-weight: 600;
+  opacity: 0.1;
+  display: block;
+  text-align: center;
 }
 
 .hero h3 {
@@ -70,7 +79,7 @@ nav a.active {
 .hero button a {
   color: #fff;
   text-decoration: none;
-  background-color: #ff0000;
+  background-color: #ff2625;
   padding: 15px 25px;
   border-radius: 5px;
   letter-spacing: 2px;
@@ -80,8 +89,8 @@ nav a.active {
 
 .hero button a:hover {
   background-color: #fff;
-  color: #ff0000;
-  border: 2px dashed #ff0000;
+  color: #ff2625;
+  border: 2px dashed #ff2625;
 }
 
 .hero img {
@@ -91,6 +100,64 @@ nav a.active {
   width: 630px;
   height: 800px;
   margin-top: -30px;
+}
+
+.search {
+  margin-top: 8rem;
+  font-family: "Lato", sans-serif;
+}
+
+.search h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.search > div {
+  max-width: 80vw;
+  margin: 4rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search > div input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  border-radius: 5px 0 0 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+.search > div button {
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff2625;
+  border-radius: 0 5px 5px 0;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  -webkit-box-shadow: 0 0 2px #000;
+          box-shadow: 0 0 2px #000;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.search > div button:hover {
+  background-color: rgba(255, 38, 37, 0.1);
+  color: #ff2625;
+  border: 0.5px solid #ff2625;
 }
 
 * {

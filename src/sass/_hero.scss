@@ -1,5 +1,5 @@
 .hero {
-  @include flex(space-between, center);
+  @include flex(space-between, flex-end);
   min-height: 80vh;
   max-width: 90vw;
   margin: 0 auto;
@@ -7,15 +7,24 @@
   font-family: $primaryFont;
 
   h2 {
-    color: red;
+    color: $primaryColor;
   }
 
-  h1 {
+  #title {
     padding: 30px 0 20px;
     font-size: 3rem;
     letter-spacing: 2px;
     line-height: 60px;
     font-weight: 700;
+  }
+
+  #bg {
+    color: $primaryColor;
+    font-size: 12.5rem;
+    font-weight: 600;
+    opacity: 0.1;
+    display: block;
+    text-align: center;
   }
 
   h3 {
@@ -32,16 +41,16 @@
     a {
       color: #fff;
       text-decoration: none;
-      background-color: #ff0000;
+      background-color: $primaryColor;
       padding: 15px 25px;
       border-radius: 5px;
       letter-spacing: 2px;
-      transition: all 500ms ease;
+      transition: $defaultTransition;
 
       &:hover {
         background-color: #fff;
-        color: #ff0000;
-        border: 2px dashed #ff0000;
+        color: $primaryColor;
+        border: 2px dashed $primaryColor;
       }
     }
   }

@@ -12,7 +12,7 @@ nav {
     margin-left: 80px;
 
     &.active {
-      border-bottom: 3px solid #ff0000;
+      border-bottom: 3px solid $primaryColor;
     }
   }
 }

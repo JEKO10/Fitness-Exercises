@@ -1,0 +1,46 @@
+.search {
+  margin-top: 8rem;
+  font-family: $primaryFont;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  > div {
+    max-width: 80vw;
+    margin: 4rem auto;
+    @include flex(center, center);
+
+    input {
+      width: 100%;
+      padding: 15px 20px;
+      border: none;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+      border-radius: 5px 0 0 5px;
+      font-family: $primaryFont;
+      font-size: 1.2rem;
+    }
+
+    button {
+      padding: 15px 20px;
+      color: #fff;
+      text-decoration: none;
+      background-color: $primaryColor;
+      border-radius: 0 5px 5px 0;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      font-family: $primaryFont;
+      border: none;
+      box-shadow: 0 0 2px #000;
+      cursor: pointer;
+      transition: $defaultTransition;
+
+      &:hover {
+        background-color: rgba(255, 38, 37, 0.1);
+        color: $primaryColor;
+        border: 0.5px solid $primaryColor;
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ function HeroBanner() {
     <section className="hero">
       <div>
         <h2>Fitness Club</h2>
-        <h1>
+        <h1 id="title">
           Sweat, Smile <br />
           and Repeat
         </h1>
@@ -14,6 +14,7 @@ function HeroBanner() {
         <button>
           <a href="#exercises">Explore Exercises</a>
         </button>
+        <h1 id="bg">Exercise</h1>
       </div>
       <img src={HeroBannerImage} alt="banner" />
     </section>
