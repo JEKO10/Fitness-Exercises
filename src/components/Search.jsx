@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { fetchData, exerciseOptions } from "../fetchData";
+import ScrollBar from "./ScrollBar";
 
-function Search() {
+function Search({ setExercises, bodyPart, setBodyPart }) {
   const [query, setQuery] = useState("");
-  const [exercises, setExercises] = useState([]);
   const [bodyParts, setBodyParts] = useState([]);
 
   useEffect(() => {
@@ -53,6 +53,11 @@ function Search() {
         />
         <button onClick={handleSearch}>Search</button>
       </div>
+      <ScrollBar
+        data={bodyParts}
+        bodyPart={bodyPart}
+        setBodyPart={setBodyPart}
+      />
     </section>
   );
 }
