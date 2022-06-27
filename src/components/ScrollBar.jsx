@@ -1,14 +1,21 @@
 import React from "react";
+import BodyPart from "./BodyPart";
+import { ScrollMenu } from "react-horizontal-scrolling-menu";
 
 function ScrollBar({ data, bodyPart, setBodyPart }) {
   return (
-    <section>
+    <ScrollMenu>
       {data.map((item) => (
-        <p key={item.id || item} title={item.id || item}>
-          {item}
-        </p>
+        <div
+          key={item.id || item}
+          itemID={item.id || item}
+          title={item.id || item}
+          style={{ margin: "0 40px" }}
+        >
+          <BodyPart item={item} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+        </div>
       ))}
-    </section>
+    </ScrollMenu>
   );
 }
 

@@ -1,0 +1,16 @@
+.bodyPart {
+  @include flex(center, center);
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+  border-top: "4px solid #FF2625";
+  background: #fff;
+  border-bottom-left-radius: 20px;
+  width: 270px;
+  height: 282px;
+  gap: 47px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
