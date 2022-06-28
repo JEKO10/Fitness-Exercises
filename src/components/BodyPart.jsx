@@ -3,9 +3,9 @@ import Icon from "../assets/icons/gym.png";
 
 function BodyPart({ item, bodyPart, setBodyPart }) {
   return (
-    <section className="bodyPart">
+    <div className="bodyPart" type="button">
       <img src={Icon} alt="IMG" />
-    </section>
+    </div>
   );
 }
 
