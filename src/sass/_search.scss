@@ -7,7 +7,7 @@
     text-align: center;
   }
 
-  > div {
+  > div:first-of-type {
     max-width: 80vw;
     margin: 4rem auto;
     @include flex(center, center);

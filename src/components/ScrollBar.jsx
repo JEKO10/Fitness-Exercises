@@ -32,7 +32,6 @@ function ScrollBar({ data, bodyPart, setBodyPart }) {
           key={item.id || item}
           itemId={item.id || item}
           title={item.id || item}
-          style={{ width: "270px", height: "280px", margin: "0 40px" }}
         >
           <BodyPart item={item} bodyPart={bodyPart} setBodyPart={setBodyPart} />
         </div>
