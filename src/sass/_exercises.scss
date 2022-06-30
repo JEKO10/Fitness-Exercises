@@ -1,0 +1,15 @@
+.exercises {
+  font-family: $primaryFont;
+  max-width: 90vw;
+  margin: 0 auto;
+
+  > h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HeroBanner from "../components/HeroBanner";
 import Search from "../components/Search";
+import Exercises from "../components/Exercises";
 
 function Home() {
   const [bodyPart, setBodyPart] = useState("all");
@@ -13,6 +14,11 @@ function Home() {
         setExercises={setExercises}
         bodyPart={bodyPart}
         setBodyPart={setBodyPart}
+      />
+      <Exercises
+        exercises={exercises}
+        setExercises={setExercises}
+        bodyPart={bodyPart}
       />
     </>
   );
