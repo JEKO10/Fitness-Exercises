@@ -10,6 +10,46 @@
 
   > div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    place-items: center;
+  }
+
+  .exerciseCard {
+    @include flex(center, flex-start);
+    flex-direction: column;
+    margin-bottom: 4rem;
+    background-color: #fff;
+    border-top: 4px solid #ff2625;
+    padding: 0 25px;
+    text-decoration: none;
+
+    > div {
+      margin: 1rem 0;
+
+      button {
+        color: #fff;
+        border: none;
+        margin-right: 1rem;
+        text-transform: capitalize;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 20px;
+
+        &:first-of-type {
+          background-color: #fda9ae;
+        }
+
+        &:last-of-type {
+          background-color: #fbc85a;
+        }
+      }
+    }
+
+    h1 {
+      color: #000;
+      padding-bottom: 35px;
+      text-transform: capitalize;
+    }
   }
 }

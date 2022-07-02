@@ -7,7 +7,6 @@ import Chest from "../assets/icons/chest.png";
 import Arms from "../assets/icons/arms.png";
 
 function BodyPart({ item, bodyPart, setBodyPart }) {
-  console.log(item);
   return (
     <div
       className="bodyPart"

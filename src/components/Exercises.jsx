@@ -1,4 +1,5 @@
 import React from "react";
+import ExerciseCard from "./ExerciseCard";
 
 function Exercises({ exercises, setExercises, bodyPart }) {
   return (
@@ -6,9 +7,7 @@ function Exercises({ exercises, setExercises, bodyPart }) {
       <h1>Showing results</h1>
       <div>
         {exercises.map((exercise) => (
-          <div key={exercise.id}>
-            <h1>{exercise.name}</h1>
-          </div>
+          <ExerciseCard key={exercise.id} exercise={exercise} />
         ))}
       </div>
     </section>
