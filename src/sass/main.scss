@@ -4,6 +4,7 @@
 @import "search";
 @import "bodyPart";
 @import "exercises";
+@import "pagination";
 
 * {
   margin: 0;
@@ -13,8 +14,4 @@
 
 body {
   background-color: #f8f8f8;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
 }

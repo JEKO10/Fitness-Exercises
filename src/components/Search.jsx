@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { fetchData, exerciseOptions } from "../fetchData";
 import ScrollBar from "./ScrollBar";
 
-function Search({ setExercises, bodyPart, setBodyPart }) {
+function Search({ setExercises, bodyPart, setBodyPart, setCurrentPage }) {
   const [query, setQuery] = useState("");
   const [bodyParts, setBodyParts] = useState([]);
 
@@ -36,6 +36,7 @@ function Search({ setExercises, bodyPart, setBodyPart }) {
 
       setQuery("");
       setExercises(searchedExercises);
+      setCurrentPage(0);
     }
   };
 

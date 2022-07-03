@@ -301,6 +301,40 @@ nav a.active {
   text-transform: capitalize;
 }
 
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.pagination .active a {
+  background-color: #ff2625;
+  color: #fff;
+}
+
+.pagination a {
+  padding: 10px 15px;
+  border: 1px solid #ff2625;
+  color: #ff2625;
+}
+
+.pagination a:hover {
+  background-color: rgba(255, 38, 37, 0.7);
+  color: #fff;
+}
+
+.pagination a.next, .pagination a.prev {
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -310,9 +344,5 @@ nav a.active {
 
 body {
   background-color: #f8f8f8;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
 }
 /*# sourceMappingURL=main.css.map */
