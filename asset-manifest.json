@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fitness-Exercises/static/css/main.809657fb.css",
-    "main.js": "/Fitness-Exercises/static/js/main.e840287d.js",
+    "main.css": "/Fitness-Exercises/static/css/main.a3204ee4.css",
+    "main.js": "/Fitness-Exercises/static/js/main.254d3d93.js",
     "static/js/787.ec6b3678.chunk.js": "/Fitness-Exercises/static/js/787.ec6b3678.chunk.js",
     "static/media/banner.png": "/Fitness-Exercises/static/media/banner.5209b5e92a864ca0c615.png",
     "static/media/back.jpg": "/Fitness-Exercises/static/media/back.b2d07768490c30fbe40a.jpg",
@@ -11,12 +11,12 @@
     "static/media/gym.png": "/Fitness-Exercises/static/media/gym.6e701417c428e2fbc267.png",
     "static/media/legs.png": "/Fitness-Exercises/static/media/legs.d8d5d49380b5b52c427e.png",
     "index.html": "/Fitness-Exercises/index.html",
-    "main.809657fb.css.map": "/Fitness-Exercises/static/css/main.809657fb.css.map",
-    "main.e840287d.js.map": "/Fitness-Exercises/static/js/main.e840287d.js.map",
+    "main.a3204ee4.css.map": "/Fitness-Exercises/static/css/main.a3204ee4.css.map",
+    "main.254d3d93.js.map": "/Fitness-Exercises/static/js/main.254d3d93.js.map",
     "787.ec6b3678.chunk.js.map": "/Fitness-Exercises/static/js/787.ec6b3678.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.809657fb.css",
-    "static/js/main.e840287d.js"
+    "static/css/main.a3204ee4.css",
+    "static/js/main.254d3d93.js"
   ]
 }
