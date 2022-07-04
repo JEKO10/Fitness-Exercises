@@ -19,7 +19,7 @@ function Search({ setExercises, bodyPart, setBodyPart, setCurrentPage }) {
     fetchBodyData();
   }, []);
 
-  const handleSearch = async () => {
+  const handleSearch = async (e) => {
     if (query) {
       const exercisesData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises",

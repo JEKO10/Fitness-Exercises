@@ -98,8 +98,8 @@ nav a.active {
   right: 60px;
   top: 0px;
   width: 630px;
-  height: 800px;
-  margin-top: -30px;
+  height: 98vh;
+  margin-top: -15px;
 }
 
 .search {
@@ -236,6 +236,7 @@ nav a.active {
   font-family: "Lato", sans-serif;
   max-width: 90vw;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 .exercises > h1 {
@@ -244,11 +245,18 @@ nav a.active {
 }
 
 .exercises > div {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(470px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .exercises .exerciseCard {
@@ -344,5 +352,9 @@ nav a.active {
 
 body {
   background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 /*# sourceMappingURL=main.css.map */
