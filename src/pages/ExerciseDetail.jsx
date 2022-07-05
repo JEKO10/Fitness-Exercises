@@ -15,7 +15,7 @@ function ExerciseDetail() {
       const exerciseDb = "https://exercisedb.p.rapidapi.com";
 
       const exerciseDbData = await fetchData(
-        `${exerciseDb}/exercises/${id}`,
+        `${exerciseDb}/exercises/exercise/${id}`,
         exerciseOptions
       );
 

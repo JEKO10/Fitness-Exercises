@@ -343,6 +343,83 @@ nav a.active {
   font-weight: bold;
 }
 
+.detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: "Lato", sans-serif;
+  max-width: 90vw;
+  margin: 1rem auto;
+}
+
+.detail > img {
+  width: 40%;
+}
+
+.detail > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.detail > div h1 {
+  font-size: 3rem;
+  padding: 20px 0;
+}
+
+.detail > div p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.detail > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+}
+
+.detail > div > div button {
+  height: 85px;
+  width: 85px;
+  background-color: #fff2de;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+.detail > div > div button img {
+  height: 80%;
+}
+
+.detail > div > div h3 {
+  text-transform: capitalize;
+  margin: 0 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
