@@ -3,7 +3,7 @@ import HeroBanner from "../components/HeroBanner";
 import Search from "../components/Search";
 import Exercises from "../components/Exercises";
 
-function Home() {
+function Home({ loading, setLoading }) {
   const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
@@ -23,6 +23,8 @@ function Home() {
         bodyPart={bodyPart}
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
+        loading={loading}
+        setLoading={setLoading}
       />
     </>
   );
