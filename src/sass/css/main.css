@@ -420,6 +420,47 @@ nav a.active {
   margin: 0 2rem;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7rem;
+  padding: 40px;
+  background-color: rgba(255, 38, 37, 0.1);
+  font-family: "Lato", sans-serif;
+}
+
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer > div img {
+  margin-right: 1rem;
+}
+
+footer > div p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer h2 {
+  color: #ff2625;
+}
+
 * {
   margin: 0;
   padding: 0;
