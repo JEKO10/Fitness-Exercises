@@ -8,11 +8,13 @@ function Detail({ exerciseDetail }) {
 
   const extraInfo = [
     {
+      id: 0,
       img: BodyPartImg,
       name: bodyPart,
     },
-    { img: TargetImg, name: target },
+    { id: 1, img: TargetImg, name: target },
     {
+      id: 2,
       img: EquipmentImg,
       name: equipment,
     },
@@ -30,7 +32,7 @@ function Detail({ exerciseDetail }) {
           gain energy.
         </p>
         {extraInfo.map((info) => (
-          <div>
+          <div key={info.id}>
             <button>
               <img src={info.img} alt="info" />
             </button>
