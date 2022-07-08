@@ -381,6 +381,7 @@ nav a.active {
 .detail > div h1 {
   font-size: 3rem;
   padding: 20px 0;
+  text-transform: capitalize;
 }
 
 .detail > div p {

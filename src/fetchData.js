@@ -8,6 +8,9 @@ export const exerciseOptions = {
 
 export const YToptions = {
   method: "GET",
+  params: {
+    sort: "v",
+  },
   headers: {
     "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
     "X-RapidAPI-Key": process.env.REACT_APP_YOUTUBE_API_KEY,
