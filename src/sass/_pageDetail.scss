@@ -48,3 +48,37 @@
     }
   }
 }
+
+.video {
+  max-width: 90vw;
+  margin: 4rem auto;
+  font-family: $primaryFont;
+
+  > h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  > div {
+    @include flex(space-between, center);
+    flex-wrap: wrap;
+    gap: 5rem;
+
+    img {
+      height: 200px;
+    }
+
+    h3 {
+      padding: 5px 0;
+    }
+
+    h4 {
+      opacity: 0.7;
+    }
+
+    h5 {
+      float: right;
+      opacity: 0.7;
+    }
+  }
+}

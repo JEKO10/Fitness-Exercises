@@ -421,6 +421,49 @@ nav a.active {
   margin: 0 2rem;
 }
 
+.video {
+  max-width: 90vw;
+  margin: 4rem auto;
+  font-family: "Lato", sans-serif;
+}
+
+.video > h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.video > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.video > div img {
+  height: 200px;
+}
+
+.video > div h3 {
+  padding: 5px 0;
+}
+
+.video > div h4 {
+  opacity: 0.7;
+}
+
+.video > div h5 {
+  float: right;
+  opacity: 0.7;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

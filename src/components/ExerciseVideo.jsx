@@ -7,19 +7,21 @@ function ExerciseVideo({ exerciseVideos, exerciseDetail }) {
     return (
       <section className="video">
         <h1>Videos for {exerciseDetail.name} exercise</h1>
-        {exerciseVideos?.slice(0, 6)?.map((item, i) => {
-          return (
-            <div key={i}>
-              <img
-                src={item?.video?.thumbnails[0]?.url}
-                alt={item?.video?.title}
-              />
-              <h1>{item?.video?.title}</h1>
-              <h3>{item?.video?.channelName}</h3>
-              <h3>{item?.video?.lengthText}</h3>
-            </div>
-          );
-        })}
+        <div>
+          {exerciseVideos?.slice(0, 6)?.map((item) => {
+            return (
+              <div key={item?.video?.videoId}>
+                <img
+                  src={item?.video?.thumbnails[0]?.url}
+                  alt={item?.video?.title}
+                />
+                <h3>{item?.video?.title}</h3>
+                <h4>{item?.video?.channelName}</h4>
+                <h5>{item?.video?.lengthText}</h5>
+              </div>
+            );
+          })}
+        </div>
       </section>
     );
   }
