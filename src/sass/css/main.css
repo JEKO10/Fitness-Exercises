@@ -259,7 +259,7 @@ nav a.active {
   gap: 2rem;
 }
 
-.exercises .exerciseCard {
+.exerciseCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,13 +278,14 @@ nav a.active {
   border-top: 4px solid #ff2625;
   padding: 0 25px;
   text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
 
-.exercises .exerciseCard > div {
+.exerciseCard > div {
   margin: 1rem 0;
 }
 
-.exercises .exerciseCard > div button {
+.exerciseCard > div button {
   color: #fff;
   border: none;
   margin-right: 1rem;
@@ -295,15 +296,15 @@ nav a.active {
   border-radius: 20px;
 }
 
-.exercises .exerciseCard > div button:first-of-type {
+.exerciseCard > div button:first-of-type {
   background-color: #fda9ae;
 }
 
-.exercises .exerciseCard > div button:last-of-type {
+.exerciseCard > div button:last-of-type {
   background-color: #fbc85a;
 }
 
-.exercises .exerciseCard h1 {
+.exerciseCard h1 {
   color: #000;
   padding-bottom: 35px;
   text-transform: capitalize;
@@ -462,6 +463,10 @@ nav a.active {
 .video > div h5 {
   float: right;
   opacity: 0.7;
+}
+
+.react-horizontal-scrolling-menu--item .exerciseCard {
+  margin-bottom: 0;
 }
 
 footer {
