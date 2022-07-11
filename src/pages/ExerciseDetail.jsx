@@ -77,13 +77,15 @@ function ExerciseDetail({ loading, setLoading }) {
     return <div className="loading"></div>;
   } else {
     return (
-      <section>
+      <section className="pageDetail">
         <Detail exerciseDetail={exerciseDetail} />
         <ExerciseVideo
           exerciseVideos={exerciseVideos}
           exerciseDetail={exerciseDetail}
         />
-        <h1>Exercises with same target</h1>
+        <h1>
+          Exercises with <span>same target</span>
+        </h1>
         <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
           {sameTarget.map((target) => (
             <div
@@ -95,7 +97,9 @@ function ExerciseDetail({ loading, setLoading }) {
             </div>
           ))}
         </ScrollMenu>
-        <h1>Exercises with same equipment</h1>
+        <h1>
+          Exercises with <span>same equipment</span>
+        </h1>
         <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
           {sameEquipment.map((equipment) => (
             <div

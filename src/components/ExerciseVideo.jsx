@@ -6,9 +6,11 @@ function ExerciseVideo({ exerciseVideos, exerciseDetail }) {
   } else {
     return (
       <section className="video">
-        <h1>Videos for {exerciseDetail.name} exercise</h1>
+        <h1>
+          Videos for <span>{exerciseDetail.name}</span> exercise
+        </h1>
         <div>
-          {exerciseVideos?.slice(0, 6)?.map((item) => {
+          {exerciseVideos?.slice(0, 3)?.map((item) => {
             return (
               <div key={item?.video?.videoId}>
                 <img

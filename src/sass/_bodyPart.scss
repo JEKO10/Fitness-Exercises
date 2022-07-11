@@ -25,7 +25,7 @@
   }
 }
 
-.react-horizontal-scrolling-menu--wrapper {
+.search .react-horizontal-scrolling-menu--wrapper {
   @include flex(center, flex-start);
   flex-direction: column;
   max-width: 80vw;

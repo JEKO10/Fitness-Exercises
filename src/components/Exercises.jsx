@@ -22,7 +22,6 @@ function Exercises({
 
     window.scroll({
       top: exerciseRef.current.getBoundingClientRect().top + window.scrollY,
-      behavior: "smooth",
     });
   };
 
@@ -54,7 +53,7 @@ function Exercises({
     return <div className="loading"></div>;
   } else {
     return (
-      <section className="exercises" ref={exerciseRef}>
+      <section className="exercises" ref={exerciseRef} id="exercises">
         <h1>Showing results</h1>
         <div>
           {currentPageData.map((exercise) => (
