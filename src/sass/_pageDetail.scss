@@ -78,15 +78,17 @@
   }
 
   > div {
-    @include flex(space-between, center);
+    @include flex(space-between, flex-start);
     flex-wrap: wrap;
     gap: 5rem;
 
     img {
       height: 200px;
+      border-radius: 25px 0;
     }
 
     h3 {
+      font-size: 2rem;
       padding: 5px 0;
       max-width: 350px;
     }

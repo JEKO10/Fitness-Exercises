@@ -454,9 +454,9 @@ nav a:not(#logo) {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 5rem;
@@ -464,9 +464,11 @@ nav a:not(#logo) {
 
 .video > div img {
   height: 200px;
+  border-radius: 25px 0;
 }
 
 .video > div h3 {
+  font-size: 2rem;
   padding: 5px 0;
   max-width: 350px;
 }
@@ -564,7 +566,7 @@ footer {
   font-family: "Lato", sans-serif;
 }
 
-footer > div {
+footer > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,13 +576,15 @@ footer > div {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  color: #000;
+  text-decoration: none;
 }
 
-footer > div img {
+footer > a img {
   margin-right: 1rem;
 }
 
-footer > div p {
+footer > a p {
   font-size: 1.5rem;
   font-weight: 700;
 }
