@@ -1,0 +1,37 @@
+@include mediaLarge {
+  nav {
+    padding: 25px 0;
+  }
+
+  .hero {
+    padding: 25px 0;
+
+    img {
+      right: 20px;
+      width: 450px;
+      height: 550px;
+      margin-top: 0;
+    }
+
+    #bg {
+      font-size: 10rem;
+    }
+  }
+
+  .search {
+    margin-top: 2rem;
+
+    .react-horizontal-scrolling-menu--wrapper {
+      max-width: 90vw;
+
+      .bodyPart {
+        width: 300px;
+        margin: 0 30px;
+      }
+    }
+  }
+
+  .pageDetail .react-horizontal-scrolling-menu--wrapper {
+    max-width: 90vw;
+  }
+}

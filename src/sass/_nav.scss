@@ -1,5 +1,5 @@
 nav {
-  @include flex(none, flex-end);
+  @include flex(none, center);
   max-width: 90vw;
   margin: 0 auto;
   padding: 25px 10px;

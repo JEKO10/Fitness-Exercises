@@ -3,14 +3,14 @@ import HeroBanner from "../components/HeroBanner";
 import Search from "../components/Search";
 import Exercises from "../components/Exercises";
 
-function Home({ loading, setLoading }) {
+function Home({ loading, setLoading, exerciseRef }) {
   const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
 
   return (
     <>
-      <HeroBanner />
+      <HeroBanner exerciseRef={exerciseRef} />
       <Search
         setExercises={setExercises}
         bodyPart={bodyPart}
@@ -25,6 +25,7 @@ function Home({ loading, setLoading }) {
         setCurrentPage={setCurrentPage}
         loading={loading}
         setLoading={setLoading}
+        exerciseRef={exerciseRef}
       />
     </>
   );

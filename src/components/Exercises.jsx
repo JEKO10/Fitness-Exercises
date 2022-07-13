@@ -11,9 +11,8 @@ function Exercises({
   bodyPart,
   loading,
   setLoading,
+  exerciseRef,
 }) {
-  const exerciseRef = useRef(null);
-
   const offset = currentPage * 9;
   const currentPageData = exercises.slice(offset, offset + 9);
 

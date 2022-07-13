@@ -6,9 +6,9 @@ nav {
   -webkit-box-pack: none;
       -ms-flex-pack: none;
           justify-content: none;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 90vw;
   margin: 0 auto;
   padding: 25px 10px;
@@ -63,6 +63,7 @@ nav a:not(#logo) {
 .hero h3 {
   font-weight: 500;
   padding-bottom: 40px;
+  max-width: 450px;
 }
 
 .hero button {
@@ -94,7 +95,7 @@ nav a:not(#logo) {
   right: 60px;
   top: 0px;
   width: 630px;
-  height: 98vh;
+  height: 800px;
   margin-top: -15px;
 }
 
@@ -482,7 +483,7 @@ nav a:not(#logo) {
   opacity: 0.7;
 }
 
-.react-horizontal-scrolling-menu--wrapper {
+.pageDetail .react-horizontal-scrolling-menu--wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,8 +502,8 @@ nav a:not(#logo) {
   position: relative;
 }
 
-.react-horizontal-scrolling-menu--wrapper .left-arrow,
-.react-horizontal-scrolling-menu--wrapper .right-arrow {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow,
+.pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   position: absolute;
   top: -100px;
   margin-top: 3rem;
@@ -513,25 +514,25 @@ nav a:not(#logo) {
   cursor: pointer;
 }
 
-.react-horizontal-scrolling-menu--wrapper .left-arrow:hover,
-.react-horizontal-scrolling-menu--wrapper .right-arrow:hover {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow:hover,
+.pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow:hover {
   -webkit-transform: scale(1.3, 1.3);
           transform: scale(1.3, 1.3);
 }
 
-.react-horizontal-scrolling-menu--wrapper .right-arrow {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   left: 0;
 }
 
-.react-horizontal-scrolling-menu--wrapper .left-arrow {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow {
   left: 50px;
 }
 
-.react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
   height: 500px;
 }
 
-.react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
   margin-right: 40px;
   margin-bottom: 0;
   -webkit-transform: scale(1, 1);
@@ -541,12 +542,12 @@ nav a:not(#logo) {
   cursor: pointer;
 }
 
-.react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard:hover {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
 }
 
-.react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
+.pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
   height: 326px;
 }
 
@@ -591,6 +592,37 @@ footer > a p {
 
 footer h2 {
   color: #ff2625;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    padding: 25px 0;
+  }
+  .hero {
+    padding: 25px 0;
+  }
+  .hero img {
+    right: 20px;
+    width: 450px;
+    height: 550px;
+    margin-top: 0;
+  }
+  .hero #bg {
+    font-size: 10rem;
+  }
+  .search {
+    margin-top: 2rem;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper {
+    max-width: 90vw;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
+    width: 300px;
+    margin: 0 30px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper {
+    max-width: 90vw;
+  }
 }
 
 * {
