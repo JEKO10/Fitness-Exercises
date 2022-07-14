@@ -25,20 +25,22 @@ function Detail({ exerciseDetail }) {
       <div className="info">
         <h1>{name}</h1>
         <p>
-          Exercises keep you strong.
+          Exercises keep you strong.{" "}
           <span style={{ textTransform: "capitalize" }}>{name}</span>
-          bup is one of the best <br /> exercises to target your
+          bup is one of the best exercises to target your{" "}
           {exerciseDetail.target}. It will help you improve your <br /> mood and
           gain energy.
         </p>
-        {extraInfo.map((info) => (
-          <div key={info.id}>
-            <button>
-              <img src={info.img} alt="info" />
-            </button>
-            <h3>{info.name}</h3>
-          </div>
-        ))}
+        <div>
+          {extraInfo.map((info) => (
+            <div key={info.id}>
+              <button>
+                <img src={info.img} alt="info" />
+              </button>
+              <h3>{info.name}</h3>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

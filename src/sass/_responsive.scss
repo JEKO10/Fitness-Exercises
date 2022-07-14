@@ -34,4 +34,144 @@
   .pageDetail .react-horizontal-scrolling-menu--wrapper {
     max-width: 90vw;
   }
+
+  .detail {
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    > img {
+      width: 450px;
+      display: block;
+      margin: 0 auto 1.5rem;
+    }
+
+    .info {
+      margin-bottom: 4rem;
+
+      h1 {
+        font-size: 2.5rem;
+        max-width: none;
+      }
+
+      p {
+        max-width: none;
+        font-size: 1.5rem;
+      }
+
+      > div {
+        @include flex(space-between, center);
+        width: 100%;
+
+        > div {
+          flex-direction: column;
+
+          button {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mediaMediumLarge {
+  .hero {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h2 {
+      text-align: start;
+    }
+
+    #title,
+    h3 {
+      max-width: none;
+    }
+  }
+
+  .search .react-horizontal-scrolling-menu--wrapper {
+    max-width: 90vw;
+
+    .bodyPart {
+      width: 300px;
+      margin: 0 25px;
+    }
+  }
+
+  .exercises > div {
+    align-items: flex-start;
+    gap: 1rem;
+
+    .exerciseCard {
+      width: 300px;
+
+      img {
+        width: 250px;
+      }
+
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      > div button {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  .detail {
+    .info {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .video {
+    > div {
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+
+      img {
+        height: 250px;
+      }
+
+      h3 {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .pageDetail .react-horizontal-scrolling-menu--wrapper {
+    .react-horizontal-scrolling-menu--item {
+      height: 450px;
+
+      .exerciseCard {
+        width: 300px;
+        height: 445px;
+        margin-right: 55px;
+
+        img {
+          width: 250px;
+        }
+
+        h1 {
+          font-size: 1.3rem;
+        }
+
+        > div button {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
 }

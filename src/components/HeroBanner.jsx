@@ -7,10 +7,7 @@ function HeroBanner({ exerciseRef }) {
     <section className="hero">
       <div>
         <h2>Fitness Club</h2>
-        <h1 id="title">
-          Sweat, Smile <br />
-          and Repeat
-        </h1>
+        <h1 id="title">Sweat, Smile and Repeat</h1>
         <h3>Check out the most effective exercises personalized to you</h3>
         <button>
           <Link

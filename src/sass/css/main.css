@@ -49,6 +49,7 @@ nav a:not(#logo) {
   letter-spacing: 2px;
   line-height: 60px;
   font-weight: 700;
+  max-width: 300px;
 }
 
 .hero #bg {
@@ -360,9 +361,9 @@ nav a:not(#logo) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -371,10 +372,11 @@ nav a:not(#logo) {
 }
 
 .detail > img {
-  width: 40%;
+  width: 550px;
+  margin-right: 40px;
 }
 
-.detail > div {
+.detail .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,32 +392,34 @@ nav a:not(#logo) {
           flex-direction: column;
 }
 
-.detail > div h1 {
-  font-size: 3rem;
+.detail .info h1 {
+  font-size: 2.5rem;
   padding: 20px 0;
   text-transform: capitalize;
+  max-width: 700px;
 }
 
-.detail > div p {
+.detail .info p {
   font-size: 1.2rem;
   line-height: 30px;
   margin-bottom: 2rem;
+  max-width: 700px;
 }
 
-.detail > div > div {
+.detail .info > div > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 0.5rem 0;
 }
 
-.detail > div > div button {
+.detail .info > div > div button {
   height: 85px;
   width: 85px;
   background-color: #fff2de;
@@ -424,11 +428,11 @@ nav a:not(#logo) {
   border: none;
 }
 
-.detail > div > div button img {
+.detail .info > div > div button img {
   height: 80%;
 }
 
-.detail > div > div h3 {
+.detail .info > div > div h3 {
   text-transform: capitalize;
   margin: 0 2rem;
 }
@@ -622,6 +626,132 @@ footer h2 {
   }
   .pageDetail .react-horizontal-scrolling-menu--wrapper {
     max-width: 90vw;
+  }
+  .detail {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .detail > img {
+    width: 450px;
+    display: block;
+    margin: 0 auto 1.5rem;
+  }
+  .detail .info {
+    margin-bottom: 4rem;
+  }
+  .detail .info h1 {
+    font-size: 2.5rem;
+    max-width: none;
+  }
+  .detail .info p {
+    max-width: none;
+    font-size: 1.5rem;
+  }
+  .detail .info > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .detail .info > div > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .detail .info > div > div button {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    display: block;
+    text-align: center;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero h2 {
+    text-align: start;
+  }
+  .hero #title,
+  .hero h3 {
+    max-width: none;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper {
+    max-width: 90vw;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
+    width: 300px;
+    margin: 0 25px;
+  }
+  .exercises > div {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1rem;
+  }
+  .exercises > div .exerciseCard {
+    width: 300px;
+  }
+  .exercises > div .exerciseCard img {
+    width: 250px;
+  }
+  .exercises > div .exerciseCard h1 {
+    font-size: 1.3rem;
+  }
+  .exercises > div .exerciseCard > div button {
+    margin-bottom: 0.5rem;
+  }
+  .detail .info h1 {
+    font-size: 2.2rem;
+  }
+  .detail .info p {
+    font-size: 1.2rem;
+  }
+  .video > div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3rem;
+  }
+  .video > div img {
+    height: 250px;
+  }
+  .video > div h3 {
+    max-width: 400px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
+    height: 450px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+    width: 300px;
+    height: 445px;
+    margin-right: 55px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
+    width: 250px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard h1 {
+    font-size: 1.3rem;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div button {
+    margin-bottom: 0.5rem;
   }
 }
 
