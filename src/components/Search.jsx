@@ -42,9 +42,7 @@ function Search({ setExercises, bodyPart, setBodyPart, setCurrentPage }) {
 
   return (
     <section className="search">
-      <h1>
-        Awesome Exercises You <br /> Should Know
-      </h1>
+      <h1>Awesome exercises you should know</h1>
       <div>
         <input
           type="text"

@@ -153,11 +153,8 @@
 
   .pageDetail .react-horizontal-scrolling-menu--wrapper {
     .react-horizontal-scrolling-menu--item {
-      height: 450px;
-
       .exerciseCard {
         width: 300px;
-        height: 445px;
         margin-right: 55px;
 
         img {
@@ -172,6 +169,120 @@
           margin-bottom: 0.5rem;
         }
       }
+    }
+  }
+}
+
+@include mediaMedium {
+  nav {
+    justify-content: flex-start;
+
+    a:not(#logo) {
+      margin-left: 50px;
+    }
+  }
+
+  .hero #bg {
+    font-size: 8rem;
+    margin-top: 2rem;
+  }
+
+  .search {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    > div:first-of-type {
+      max-width: 90vw;
+    }
+
+    .react-horizontal-scrolling-menu--wrapper {
+      h1 {
+        padding: 0;
+      }
+
+      .bodyPart {
+        width: 450px;
+        margin: 0 30px;
+      }
+    }
+  }
+
+  .exercises > div .exerciseCard {
+    width: 100%;
+    align-items: center;
+
+    img {
+      width: 300px;
+    }
+
+    > div {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      padding: 15px 10px 30px;
+    }
+  }
+
+  .detail {
+    > img {
+      width: 90%;
+    }
+
+    .info {
+      h1 {
+        font-size: 2rem;
+        padding: 0 0 20px;
+      }
+    }
+  }
+
+  .video {
+    margin: 3rem auto;
+
+    > h1 {
+      font-size: 2rem;
+    }
+
+    > div {
+      gap: 4rem;
+    }
+  }
+
+  .pageDetail
+    .react-horizontal-scrolling-menu--wrapper
+    .react-horizontal-scrolling-menu--item {
+    height: auto;
+
+    .exerciseCard {
+      width: 450px;
+      margin: 0 30px;
+      @include flex(center, center);
+      flex-direction: column;
+
+      img {
+        width: 300px;
+      }
+
+      > div {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 2rem;
+        padding: 15px 10px 30px;
+      }
+    }
+  }
+
+  footer {
+    padding: 40px;
+    flex-direction: column;
+
+    > a {
+      margin-bottom: 2rem;
     }
   }
 }

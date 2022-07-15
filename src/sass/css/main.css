@@ -108,6 +108,8 @@ nav a:not(#logo) {
 .search h1 {
   font-size: 3rem;
   text-align: center;
+  text-transform: capitalize;
+  padding: 0 35px;
 }
 
 .search > div:first-of-type {
@@ -736,12 +738,8 @@ footer h2 {
   .video > div h3 {
     max-width: 400px;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
-    height: 450px;
-  }
   .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
     width: 300px;
-    height: 445px;
     margin-right: 55px;
   }
   .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
@@ -752,6 +750,116 @@ footer h2 {
   }
   .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div button {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  nav a:not(#logo) {
+    margin-left: 50px;
+  }
+  .hero #bg {
+    font-size: 8rem;
+    margin-top: 2rem;
+  }
+  .search h1 {
+    font-size: 2.5rem;
+  }
+  .search > div:first-of-type {
+    max-width: 90vw;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper h1 {
+    padding: 0;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
+    width: 450px;
+    margin: 0 30px;
+  }
+  .exercises > div .exerciseCard {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .exercises > div .exerciseCard img {
+    width: 300px;
+  }
+  .exercises > div .exerciseCard > div {
+    width: 100%;
+  }
+  .exercises > div .exerciseCard h1 {
+    font-size: 2rem;
+    padding: 15px 10px 30px;
+  }
+  .detail > img {
+    width: 90%;
+  }
+  .detail .info h1 {
+    font-size: 2rem;
+    padding: 0 0 20px;
+  }
+  .video {
+    margin: 3rem auto;
+  }
+  .video > h1 {
+    font-size: 2rem;
+  }
+  .video > div {
+    gap: 4rem;
+  }
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item {
+    height: auto;
+  }
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard {
+    width: 450px;
+    margin: 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard img {
+    width: 300px;
+  }
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard > div {
+    width: 100%;
+  }
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard h1 {
+    font-size: 2rem;
+    padding: 15px 10px 30px;
+  }
+  footer {
+    padding: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer > a {
+    margin-bottom: 2rem;
   }
 }
 
