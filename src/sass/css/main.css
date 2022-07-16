@@ -1,20 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: none;
-      -ms-flex-pack: none;
-          justify-content: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: none;
+  align-items: center;
   max-width: 90vw;
   margin: 0 auto;
   padding: 25px 10px;
   font-family: "Lato", sans-serif;
 }
-
 nav a:not(#logo) {
   color: #000;
   text-decoration: none;
@@ -23,26 +16,18 @@ nav a:not(#logo) {
 }
 
 .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
   min-height: 80vh;
   max-width: 90vw;
   margin: 0 auto;
   padding: 25px 10px;
   font-family: "Lato", sans-serif;
 }
-
 .hero h2 {
   color: #ff2625;
 }
-
 .hero #title {
   padding: 30px 0 20px;
   font-size: 3rem;
@@ -51,7 +36,6 @@ nav a:not(#logo) {
   font-weight: 700;
   max-width: 300px;
 }
-
 .hero #bg {
   color: #ff2625;
   font-size: 12.5rem;
@@ -60,20 +44,17 @@ nav a:not(#logo) {
   display: block;
   text-align: center;
 }
-
 .hero h3 {
   font-weight: 500;
   padding-bottom: 40px;
   max-width: 450px;
 }
-
 .hero button {
   background: none;
   border: none;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
 }
-
 .hero button a {
   color: #fff;
   text-decoration: none;
@@ -81,16 +62,13 @@ nav a:not(#logo) {
   padding: 15px 25px;
   border-radius: 5px;
   letter-spacing: 2px;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-
 .hero button a:hover {
   background-color: #fff;
   color: #ff2625;
   border: 2px dashed #ff2625;
 }
-
 .hero img {
   position: absolute;
   right: 60px;
@@ -104,39 +82,28 @@ nav a:not(#logo) {
   margin-top: 8rem;
   font-family: "Lato", sans-serif;
 }
-
 .search h1 {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
   padding: 0 35px;
 }
-
 .search > div:first-of-type {
   max-width: 80vw;
   margin: 4rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .search > div:first-of-type input {
   width: 100%;
   padding: 15px 20px;
   border: none;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
   border-radius: 5px 0 0 5px;
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
 }
-
 .search > div:first-of-type button {
   padding: 15px 20px;
   color: #fff;
@@ -147,13 +114,10 @@ nav a:not(#logo) {
   letter-spacing: 2px;
   font-family: "Lato", sans-serif;
   border: none;
-  -webkit-box-shadow: 0 0 2px #000;
-          box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
   cursor: pointer;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-
 .search > div:first-of-type button:hover {
   background-color: rgba(255, 38, 37, 0.1);
   color: #ff2625;
@@ -161,75 +125,46 @@ nav a:not(#logo) {
 }
 
 .bodyPart {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 330px;
   height: 280px;
   background: #fff;
   cursor: pointer;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transition: 300ms all ease-in-out;
+  transform: scale(1, 1);
   transition: 300ms all ease-in-out;
   margin: 0 40px;
 }
-
 .bodyPart:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
-
 .bodyPart img {
   height: 40px;
   width: 40px;
   margin-bottom: 1.5rem;
 }
-
 .bodyPart h2 {
   font-weight: bold;
   text-transform: capitalize;
 }
 
 .search .react-horizontal-scrolling-menu--wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   max-width: 80vw;
   margin: 4rem auto;
 }
-
 .search .react-horizontal-scrolling-menu--wrapper h1 {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transition: 0.3s all ease-in-out;
+  transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
-
 .search .react-horizontal-scrolling-menu--wrapper h1:hover {
-  -webkit-transform: scale(1.3, 1.3);
-          transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
 }
 
 .exercises {
@@ -238,41 +173,23 @@ nav a:not(#logo) {
   margin: 0 auto;
   scroll-behavior: smooth;
 }
-
 .exercises > h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
-
 .exercises > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .exerciseCard {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   margin-bottom: 4rem;
   background-color: #fff;
   border-top: 4px solid #ff2625;
@@ -280,11 +197,9 @@ nav a:not(#logo) {
   text-decoration: none;
   font-family: "Lato", sans-serif;
 }
-
 .exerciseCard > div {
   margin: 1rem 0;
 }
-
 .exerciseCard > div button {
   color: #fff;
   border: none;
@@ -295,15 +210,12 @@ nav a:not(#logo) {
   padding: 10px 15px;
   border-radius: 20px;
 }
-
 .exerciseCard > div button:first-of-type {
   background-color: #fda9ae;
 }
-
 .exerciseCard > div button:last-of-type {
   background-color: #fbc85a;
 }
-
 .exerciseCard h1 {
   color: #000;
   padding-bottom: 35px;
@@ -311,35 +223,25 @@ nav a:not(#logo) {
 }
 
 .pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
   cursor: pointer;
 }
-
 .pagination .active a {
   background-color: #ff2625;
   color: #fff;
 }
-
 .pagination a {
   padding: 10px 15px;
   border: 1px solid #ff2625;
   color: #ff2625;
 }
-
 .pagination a:hover {
   background-color: rgba(255, 38, 37, 0.7);
   color: #fff;
 }
-
 .pagination a.next, .pagination a.prev {
   font-weight: bold;
 }
@@ -347,80 +249,51 @@ nav a:not(#logo) {
 .pageDetail {
   font-family: "Lato", sans-serif;
 }
-
 .pageDetail > h1 {
   max-width: 90vw;
   margin: 0 auto;
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
-
 .pageDetail > h1 span {
   color: #ff2625;
 }
 
 .detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
   max-width: 90vw;
   margin: 1rem auto;
 }
-
 .detail > img {
   width: 550px;
   margin-right: 40px;
 }
-
 .detail .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
 }
-
 .detail .info h1 {
   font-size: 2.5rem;
   padding: 20px 0;
   text-transform: capitalize;
   max-width: 700px;
 }
-
 .detail .info p {
   font-size: 1.2rem;
   line-height: 30px;
   margin-bottom: 2rem;
   max-width: 700px;
 }
-
 .detail .info > div > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0.5rem 0;
 }
-
 .detail .info > div > div button {
   height: 85px;
   width: 85px;
@@ -429,11 +302,9 @@ nav a:not(#logo) {
   border-radius: 50%;
   border: none;
 }
-
 .detail .info > div > div button img {
   height: 80%;
 }
-
 .detail .info > div > div h3 {
   text-transform: capitalize;
   margin: 0 2rem;
@@ -444,158 +315,105 @@ nav a:not(#logo) {
   margin: 4rem auto;
   font-family: "Lato", sans-serif;
 }
-
 .video > h1 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
-
 .video > h1 span {
   color: #ff2625;
 }
-
 .video > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 5rem;
 }
-
 .video > div img {
   height: 200px;
   border-radius: 25px 0;
 }
-
 .video > div h3 {
   font-size: 2rem;
   padding: 5px 0;
   max-width: 350px;
 }
-
 .video > div h4 {
   opacity: 0.7;
 }
-
 .video > div h5 {
   float: right;
   opacity: 0.7;
 }
 
 .pageDetail .react-horizontal-scrolling-menu--wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   max-width: 80vw;
   margin: 5rem auto 0;
   position: relative;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow,
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   position: absolute;
   top: -100px;
   margin-top: 3rem;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transition: 0.3s all ease-in-out;
+  transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow:hover,
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow:hover {
-  -webkit-transform: scale(1.3, 1.3);
-          transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   left: 0;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow {
   left: 50px;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
   height: 500px;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
   margin-right: 40px;
   margin-bottom: 0;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transition: 0.3s all ease-in-out;
+  transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard:hover {
-  -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
 }
-
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
   height: 326px;
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 5rem;
   padding: 40px;
   background-color: rgba(255, 38, 37, 0.1);
   font-family: "Lato", sans-serif;
 }
-
 footer > a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
   color: #000;
   text-decoration: none;
 }
-
 footer > a img {
   margin-right: 1rem;
 }
-
 footer > a p {
   font-size: 1.5rem;
   font-weight: 700;
 }
-
 footer h2 {
   color: #ff2625;
 }
@@ -630,13 +448,8 @@ footer h2 {
     max-width: 90vw;
   }
   .detail {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
   .detail > img {
     width: 450px;
@@ -655,28 +468,18 @@ footer h2 {
     font-size: 1.5rem;
   }
   .detail .info > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
   .detail .info > div > div {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .detail .info > div > div button {
     margin-bottom: 1rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .hero {
     display: block;
@@ -689,7 +492,7 @@ footer h2 {
     text-align: start;
   }
   .hero #title,
-  .hero h3 {
+.hero h3 {
     max-width: none;
   }
   .search .react-horizontal-scrolling-menu--wrapper {
@@ -700,9 +503,7 @@ footer h2 {
     margin: 0 25px;
   }
   .exercises > div {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     gap: 1rem;
   }
   .exercises > div .exerciseCard {
@@ -724,12 +525,8 @@ footer h2 {
     font-size: 1.2rem;
   }
   .video > div {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
   }
   .video > div img {
@@ -752,12 +549,9 @@ footer h2 {
     margin-bottom: 0.5rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   nav {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
   nav a:not(#logo) {
     margin-left: 50px;
@@ -781,9 +575,7 @@ footer h2 {
   }
   .exercises > div .exerciseCard {
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .exercises > div .exerciseCard img {
     width: 300px;
@@ -811,63 +603,66 @@ footer h2 {
   .video > div {
     gap: 4rem;
   }
-  .pageDetail
-.react-horizontal-scrolling-menu--wrapper
-.react-horizontal-scrolling-menu--item {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
     height: auto;
   }
-  .pageDetail
-.react-horizontal-scrolling-menu--wrapper
-.react-horizontal-scrolling-menu--item .exerciseCard {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
     width: 450px;
     margin: 0 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .pageDetail
-.react-horizontal-scrolling-menu--wrapper
-.react-horizontal-scrolling-menu--item .exerciseCard img {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
     width: 300px;
   }
-  .pageDetail
-.react-horizontal-scrolling-menu--wrapper
-.react-horizontal-scrolling-menu--item .exerciseCard > div {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div {
     width: 100%;
   }
-  .pageDetail
-.react-horizontal-scrolling-menu--wrapper
-.react-horizontal-scrolling-menu--item .exerciseCard h1 {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard h1 {
     font-size: 2rem;
     padding: 15px 10px 30px;
   }
   footer {
     padding: 40px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   footer > a {
     margin-bottom: 2rem;
   }
 }
-
+@media screen and (max-width: 576px) {
+  .hero #bg {
+    font-size: 7rem;
+  }
+  .search > div:first-of-type input,
+.search > div:first-of-type button {
+    padding: 10px 15px;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
+    width: 400px;
+    margin: 0 15px;
+  }
+  .video > div img {
+    height: 200px;
+  }
+  .video > div h3 {
+    font-size: 1.5rem;
+    max-width: 350px;
+  }
+  .pageDetail > h1 {
+    font-size: 2.3rem;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+    width: 400px;
+    margin: 0 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -896,15 +691,12 @@ body {
 
 @-webkit-keyframes spinner {
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spinner {
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

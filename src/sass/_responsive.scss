@@ -286,3 +286,47 @@
     }
   }
 }
+
+@include mediaMediumLow {
+  .hero #bg {
+    font-size: 7rem;
+  }
+
+  .search {
+    > div:first-of-type {
+      input,
+      button {
+        padding: 10px 15px;
+      }
+    }
+
+    .react-horizontal-scrolling-menu--wrapper .bodyPart {
+      width: 400px;
+      margin: 0 15px;
+    }
+  }
+
+  .video > div {
+    img {
+      height: 200px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      max-width: 350px;
+    }
+  }
+
+  .pageDetail {
+    > h1 {
+      font-size: 2.3rem;
+    }
+
+    .react-horizontal-scrolling-menu--wrapper
+      .react-horizontal-scrolling-menu--item
+      .exerciseCard {
+      width: 400px;
+      margin: 0 15px;
+    }
+  }
+}
