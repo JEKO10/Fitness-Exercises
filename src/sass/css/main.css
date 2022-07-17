@@ -615,7 +615,7 @@ footer h2 {
     flex-direction: column;
   }
   .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
-    width: 300px;
+    width: 100%;
   }
   .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div {
     width: 100%;
@@ -658,6 +658,111 @@ footer h2 {
     width: 400px;
     margin: 0 15px;
   }
+  .pagination a {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav {
+    justify-content: flex-start;
+  }
+  .hero #title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .hero #bg {
+    font-size: 4.5rem;
+  }
+  .search {
+    margin-top: 0;
+  }
+  .search h1 {
+    font-size: 2rem;
+  }
+  .search > div:first-of-type {
+    margin: 2rem auto;
+  }
+  .search > div:first-of-type input,
+.search > div:first-of-type button {
+    font-size: 1rem;
+  }
+  .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
+    width: 250px;
+    margin: 0 20px;
+  }
+  .exercises > h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .exercises > div .exerciseCard {
+    width: 90%;
+  }
+  .exercises > div .exerciseCard > div button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  .exercises > div .exerciseCard h1 {
+    font-size: 1.5rem;
+    padding: 15px 10px;
+  }
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .pagination li {
+    margin-bottom: 1.5rem;
+  }
+  .pagination li a {
+    padding: 5px 10px;
+  }
+  .detail .info h1 {
+    font-size: 1.5rem;
+  }
+  .detail .info p {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .detail .info > div {
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+  .detail .info > div > div {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .video h1 {
+    font-size: 1.5rem;
+  }
+  .video > div img {
+    height: 180px;
+    width: 100%;
+  }
+  .video > div h3 {
+    font-size: 1.3rem;
+    max-width: 90%;
+  }
+  .pageDetail > h1 {
+    font-size: 1.5rem;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+    width: 250px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
+    height: 180px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div {
+    margin: 2rem 0 0;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard h1 {
+    font-size: 1.3rem;
+    padding: 15px 10px;
+  }
+  footer h2 {
+    font-size: 1.3rem;
+  }
 }
 * {
   margin: 0;
@@ -685,14 +790,7 @@ body {
   border-radius: 50%;
   border: 3px solid #ccc;
   border-top-color: #ff2625;
-  -webkit-animation: spinner 0.6s linear infinite;
-          animation: spinner 0.6s linear infinite;
-}
-
-@-webkit-keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
+  animation: spinner 0.6s linear infinite;
 }
 
 @keyframes spinner {

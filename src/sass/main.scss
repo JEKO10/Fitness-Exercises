@@ -1,13 +1,5 @@
-@import "config";
-@import "nav";
-@import "hero";
-@import "search";
-@import "bodyPart";
-@import "exercises";
-@import "pagination";
-@import "pageDetail";
-@import "footer";
-@import "responsive";
+@import "config", "nav", "hero", "search", "bodyPart", "exercises", "pagination",
+  "pageDetail", "footer", "responsive";
 
 * {
   margin: 0;
