@@ -8,6 +8,7 @@ nav {
   padding: 25px 10px;
   font-family: "Lato", sans-serif;
 }
+
 nav a:not(#logo) {
   color: #000;
   text-decoration: none;
@@ -25,9 +26,11 @@ nav a:not(#logo) {
   padding: 25px 10px;
   font-family: "Lato", sans-serif;
 }
+
 .hero h2 {
   color: #ff2625;
 }
+
 .hero #title {
   padding: 30px 0 20px;
   font-size: 3rem;
@@ -36,6 +39,7 @@ nav a:not(#logo) {
   font-weight: 700;
   max-width: 300px;
 }
+
 .hero #bg {
   color: #ff2625;
   font-size: 12.5rem;
@@ -44,17 +48,20 @@ nav a:not(#logo) {
   display: block;
   text-align: center;
 }
+
 .hero h3 {
   font-weight: 500;
   padding-bottom: 40px;
   max-width: 450px;
 }
+
 .hero button {
   background: none;
   border: none;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
 }
+
 .hero button a {
   color: #fff;
   text-decoration: none;
@@ -64,11 +71,13 @@ nav a:not(#logo) {
   letter-spacing: 2px;
   transition: all 500ms ease;
 }
+
 .hero button a:hover {
   background-color: #fff;
   color: #ff2625;
   border: 2px dashed #ff2625;
 }
+
 .hero img {
   position: absolute;
   right: 60px;
@@ -82,12 +91,14 @@ nav a:not(#logo) {
   margin-top: 8rem;
   font-family: "Lato", sans-serif;
 }
+
 .search h1 {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
   padding: 0 35px;
 }
+
 .search > div:first-of-type {
   max-width: 80vw;
   margin: 4rem auto;
@@ -95,6 +106,7 @@ nav a:not(#logo) {
   justify-content: center;
   align-items: center;
 }
+
 .search > div:first-of-type input {
   width: 100%;
   padding: 15px 20px;
@@ -104,6 +116,7 @@ nav a:not(#logo) {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
 }
+
 .search > div:first-of-type button {
   padding: 15px 20px;
   color: #fff;
@@ -118,6 +131,7 @@ nav a:not(#logo) {
   cursor: pointer;
   transition: all 500ms ease;
 }
+
 .search > div:first-of-type button:hover {
   background-color: rgba(255, 38, 37, 0.1);
   color: #ff2625;
@@ -137,14 +151,17 @@ nav a:not(#logo) {
   transition: 300ms all ease-in-out;
   margin: 0 40px;
 }
+
 .bodyPart:hover {
   transform: scale(1.1, 1.1);
 }
+
 .bodyPart img {
   height: 40px;
   width: 40px;
   margin-bottom: 1.5rem;
 }
+
 .bodyPart h2 {
   font-weight: bold;
   text-transform: capitalize;
@@ -158,11 +175,13 @@ nav a:not(#logo) {
   max-width: 80vw;
   margin: 4rem auto;
 }
+
 .search .react-horizontal-scrolling-menu--wrapper h1 {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
+
 .search .react-horizontal-scrolling-menu--wrapper h1:hover {
   transform: scale(1.3, 1.3);
 }
@@ -173,10 +192,12 @@ nav a:not(#logo) {
   margin: 0 auto;
   scroll-behavior: smooth;
 }
+
 .exercises > h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
+
 .exercises > div {
   display: flex;
   justify-content: center;
@@ -197,9 +218,11 @@ nav a:not(#logo) {
   text-decoration: none;
   font-family: "Lato", sans-serif;
 }
+
 .exerciseCard > div {
   margin: 1rem 0;
 }
+
 .exerciseCard > div button {
   color: #fff;
   border: none;
@@ -210,12 +233,15 @@ nav a:not(#logo) {
   padding: 10px 15px;
   border-radius: 20px;
 }
+
 .exerciseCard > div button:first-of-type {
   background-color: #fda9ae;
 }
+
 .exerciseCard > div button:last-of-type {
   background-color: #fbc85a;
 }
+
 .exerciseCard h1 {
   color: #000;
   padding-bottom: 35px;
@@ -229,19 +255,23 @@ nav a:not(#logo) {
   list-style-type: none;
   cursor: pointer;
 }
+
 .pagination .active a {
   background-color: #ff2625;
   color: #fff;
 }
+
 .pagination a {
   padding: 10px 15px;
   border: 1px solid #ff2625;
   color: #ff2625;
 }
+
 .pagination a:hover {
   background-color: rgba(255, 38, 37, 0.7);
   color: #fff;
 }
+
 .pagination a.next, .pagination a.prev {
   font-weight: bold;
 }
@@ -249,12 +279,14 @@ nav a:not(#logo) {
 .pageDetail {
   font-family: "Lato", sans-serif;
 }
+
 .pageDetail > h1 {
   max-width: 90vw;
   margin: 0 auto;
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
+
 .pageDetail > h1 span {
   color: #ff2625;
 }
@@ -266,34 +298,40 @@ nav a:not(#logo) {
   max-width: 90vw;
   margin: 1rem auto;
 }
+
 .detail > img {
   width: 550px;
   margin-right: 40px;
 }
+
 .detail .info {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
 }
+
 .detail .info h1 {
   font-size: 2.5rem;
   padding: 20px 0;
   text-transform: capitalize;
   max-width: 700px;
 }
+
 .detail .info p {
   font-size: 1.2rem;
   line-height: 30px;
   margin-bottom: 2rem;
   max-width: 700px;
 }
+
 .detail .info > div > div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 0.5rem 0;
 }
+
 .detail .info > div > div button {
   height: 85px;
   width: 85px;
@@ -302,9 +340,11 @@ nav a:not(#logo) {
   border-radius: 50%;
   border: none;
 }
+
 .detail .info > div > div button img {
   height: 80%;
 }
+
 .detail .info > div > div h3 {
   text-transform: capitalize;
   margin: 0 2rem;
@@ -315,13 +355,16 @@ nav a:not(#logo) {
   margin: 4rem auto;
   font-family: "Lato", sans-serif;
 }
+
 .video > h1 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
+
 .video > h1 span {
   color: #ff2625;
 }
+
 .video > div {
   display: flex;
   justify-content: space-between;
@@ -329,18 +372,22 @@ nav a:not(#logo) {
   flex-wrap: wrap;
   gap: 5rem;
 }
+
 .video > div img {
   height: 200px;
   border-radius: 25px 0;
 }
+
 .video > div h3 {
   font-size: 2rem;
   padding: 5px 0;
   max-width: 350px;
 }
+
 .video > div h4 {
   opacity: 0.7;
 }
+
 .video > div h5 {
   float: right;
   opacity: 0.7;
@@ -355,6 +402,7 @@ nav a:not(#logo) {
   margin: 5rem auto 0;
   position: relative;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow,
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   position: absolute;
@@ -364,19 +412,24 @@ nav a:not(#logo) {
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow:hover,
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow:hover {
   transform: scale(1.3, 1.3);
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .right-arrow {
   left: 0;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .left-arrow {
   left: 50px;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
   height: 500px;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
   margin-right: 40px;
   margin-bottom: 0;
@@ -384,9 +437,11 @@ nav a:not(#logo) {
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard:hover {
   transform: scale(1.05, 1.05);
 }
+
 .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
   height: 326px;
 }
@@ -400,6 +455,7 @@ footer {
   background-color: rgba(255, 38, 37, 0.1);
   font-family: "Lato", sans-serif;
 }
+
 footer > a {
   display: flex;
   justify-content: center;
@@ -407,13 +463,16 @@ footer > a {
   color: #000;
   text-decoration: none;
 }
+
 footer > a img {
   margin-right: 1rem;
 }
+
 footer > a p {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 footer h2 {
   color: #ff2625;
 }
@@ -480,6 +539,7 @@ footer h2 {
     margin-bottom: 1rem;
   }
 }
+
 @media screen and (max-width: 992px) {
   .hero {
     display: block;
@@ -492,7 +552,7 @@ footer h2 {
     text-align: start;
   }
   .hero #title,
-.hero h3 {
+  .hero h3 {
     max-width: none;
   }
   .search .react-horizontal-scrolling-menu--wrapper {
@@ -549,6 +609,7 @@ footer h2 {
     margin-bottom: 0.5rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   nav {
     justify-content: flex-start;
@@ -603,10 +664,14 @@ footer h2 {
   .video > div {
     gap: 4rem;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item {
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item {
     height: auto;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard {
     width: 450px;
     margin: 0 30px;
     display: flex;
@@ -614,13 +679,19 @@ footer h2 {
     align-items: center;
     flex-direction: column;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard img {
     width: 100%;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div {
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard > div {
     width: 100%;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard h1 {
+  .pageDetail
+.react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item .exerciseCard h1 {
     font-size: 2rem;
     padding: 15px 10px 30px;
   }
@@ -632,12 +703,13 @@ footer h2 {
     margin-bottom: 2rem;
   }
 }
+
 @media screen and (max-width: 576px) {
   .hero #bg {
     font-size: 7rem;
   }
   .search > div:first-of-type input,
-.search > div:first-of-type button {
+  .search > div:first-of-type button {
     padding: 10px 15px;
   }
   .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
@@ -654,7 +726,9 @@ footer h2 {
   .pageDetail > h1 {
     font-size: 2.3rem;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard {
     width: 400px;
     margin: 0 15px;
   }
@@ -662,9 +736,13 @@ footer h2 {
     padding: 10px;
   }
 }
+
 @media screen and (max-width: 480px) {
   nav {
     justify-content: flex-start;
+  }
+  .hero {
+    min-height: 70vh;
   }
   .hero #title {
     font-size: 2rem;
@@ -677,13 +755,14 @@ footer h2 {
     margin-top: 0;
   }
   .search h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0 15px;
   }
   .search > div:first-of-type {
     margin: 2rem auto;
   }
   .search > div:first-of-type input,
-.search > div:first-of-type button {
+  .search > div:first-of-type button {
     font-size: 1rem;
   }
   .search .react-horizontal-scrolling-menu--wrapper .bodyPart {
@@ -714,6 +793,9 @@ footer h2 {
   .pagination li a {
     padding: 5px 10px;
   }
+  .detail {
+    flex-direction: column;
+  }
   .detail .info h1 {
     font-size: 1.5rem;
   }
@@ -729,6 +811,9 @@ footer h2 {
     margin-bottom: 1rem;
     width: 100%;
   }
+  .video {
+    margin: 0 auto 4rem;
+  }
   .video h1 {
     font-size: 1.5rem;
   }
@@ -743,20 +828,30 @@ footer h2 {
   .pageDetail > h1 {
     font-size: 1.5rem;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard {
     width: 250px;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard img {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard img {
     height: 180px;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard > div {
     margin: 2rem 0 0;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard > div button {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard > div button {
     font-size: 0.8rem;
     padding: 5px 10px;
   }
-  .pageDetail .react-horizontal-scrolling-menu--wrapper .react-horizontal-scrolling-menu--item .exerciseCard h1 {
+  .pageDetail .react-horizontal-scrolling-menu--wrapper
+.react-horizontal-scrolling-menu--item
+.exerciseCard h1 {
     font-size: 1.3rem;
     padding: 15px 10px;
   }
@@ -764,6 +859,7 @@ footer h2 {
     font-size: 1.3rem;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -797,4 +893,5 @@ body {
   to {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
