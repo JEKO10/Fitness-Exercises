@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import ExerciseCard from "./ExerciseCard";
 import ReactPaginate from "react-paginate";
 import { fetchData, exerciseOptions } from "../fetchData";
