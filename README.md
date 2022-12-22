@@ -17,7 +17,7 @@ The project was inspired by [JavaScript Mastery](https://github.com/adrianhajdin
 
 ## Project overview
 
-Choose exercise categories and specific muscle groups, and search more than one thousand exercises with practical examples and related youtube videos. I also created pagination with react-paginate and a section for similar exercises for targeting muscle group or equipment.
+Choose exercise categories and specific muscle groups, and search for more than one thousand exercises with practical examples and related youtube videos. I also created pagination with react-paginate and a section for similar exercises for targeting muscle group or equipment.
 
 ## Built with
 
